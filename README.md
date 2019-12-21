@@ -2,6 +2,7 @@
 
 This is a personal take on the adoption of using selenium with testng in a maven project that is universal enough to support any business. The main focus here is on the foundation and defferent designs in an effort to best accommodate for easy maintenance and flexibility in selecting what test cases/profiles you wish to run.
 As an example and for demonstration purposes, I chose to run few test cases on the Linkedin login page. 
+The project demonstrates three different design patterns to sucessfully include all necessary elements for a successfull Login UI automation
 
 ## Concepts Included
 
