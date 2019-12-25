@@ -52,7 +52,7 @@ In order for the api tests to make more sense, you will need to configure your u
    * Testng3.xml will run another login class(executeLoginTest.Linkedinlogin2Test)  
    * Testng4.xml will run all available Test classes under Test folder(All the 3 classes menitoned above)  
    
-### How to run your test from the comand prompt
+### How to run your test from the comand line
 * Maven surefire plugin takes care of running your tests from the cmd. In addition, this project supports profilining which means you can choose to run the profile you desire all based on your testing coverage. e.g. on profiles, you could create a profile for 'smoke testing' another one for 'api testing' and the list goes on.  
 For this project, four profiles are available:
    * Run_LinkedinloginTest
