@@ -17,6 +17,10 @@ public class Globalconfiguration {
 	public WebDriver firefoxDriver= null;
 	public WebDriver internetExplorerDriver= null;
 	public Properties prop = null;
+	//public static Logger log= null;
+	
+	//private static Logger log= LogManager.getLogger(Globalconfiguration.class.getName());
+	
 	
 	public WebDriver getChromeDriver() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\ChromeDriver\\chromedriver.exe");
@@ -38,7 +42,7 @@ public class Globalconfiguration {
 	
 	public Properties getProperties() throws IOException {
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\ali mahdi\\eclipse-workspace\\SeleniumWithTestNG\\src\\test\\java\\executeLoginTest\\globalinput.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\almehdi\\eclipse-workspace\\AutomationFramework\\AutomationFramework_TestNG\\src\\test\\java\\executeLoginTest\\globalinput.properties");
 		prop.load(fis);
 		return prop;
 		
@@ -68,6 +72,13 @@ public class Globalconfiguration {
 		driver.manage().deleteAllCookies();
 		
 	}
+	
+	//public Logger log(Logger log) {
+		//Globalconfiguration.log= log;
+		//log= LogManager.getLogger(Globalconfiguration.class.getName());
+		//return log;
+		
+	//}
 	
 	public void quitBrowser() {
 		driver.close();

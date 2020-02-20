@@ -22,7 +22,7 @@ public class Loginmethod2 {
 
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\ali mahdi\\eclipse-workspace\\SeleniumWithTestNG\\src\\test\\java\\executeLoginTest\\globalinput.properties");
+				"C:\\Users\\almehdi\\eclipse-workspace\\AutomationFramework\\AutomationFramework_TestNG\\src\\test\\java\\executeLoginTest\\globalinput.properties");
 		prop.load(fis);
 
 		/*if (prop.getProperty("browser").equals("firefox")) {

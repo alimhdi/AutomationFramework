@@ -1,77 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="111000" started-at="2019-12-20T05:58:42 EET" finished-at="2019-12-20T06:00:33 EET">
+  <suite started-at="2020-02-12T15:00:40 EST" name="Default suite" finished-at="2020-02-12T15:01:05 EST" duration-ms="24847">
     <groups>
     </groups>
-    <test name="Test" duration-ms="111000" started-at="2019-12-20T05:58:42 EET" finished-at="2019-12-20T06:00:33 EET">
-      <class name="executeLoginTest.Linkedinlogin2Test">
-        <test-method status="PASS" signature="loginUsingInheritence1()[pri:0, instance:executeLoginTest.Linkedinlogin2Test@23e028a9]" name="loginUsingInheritence1" duration-ms="22873" started-at="2019-12-20T05:59:41 EET" finished-at="2019-12-20T06:00:04 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginUsingInheritence1 -->
-        <test-method status="FAIL" signature="loginUsingInheritence2()[pri:0, instance:executeLoginTest.Linkedinlogin2Test@23e028a9]" name="loginUsingInheritence2" duration-ms="25166" started-at="2019-12-20T06:00:04 EET" finished-at="2019-12-20T06:00:29 EET">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[did not expect to find [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at executeLoginTest.Linkedinlogin2Test.loginUsingInheritence2(Linkedinlogin2Test.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginUsingInheritence2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:executeLoginTest.Linkedinlogin2Test@23e028a9]" name="tearDown" is-config="true" duration-ms="831" started-at="2019-12-20T06:00:32 EET" finished-at="2019-12-20T06:00:33 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- executeLoginTest.Linkedinlogin2Test -->
+    <test started-at="2020-02-12T15:00:40 EST" name="Default test" finished-at="2020-02-12T15:01:05 EST" duration-ms="24847">
       <class name="executeLoginTest.LinkedinabstractlonginTest">
-        <test-method status="PASS" signature="setupTestConfiguration()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@47ef968d]" name="setupTestConfiguration" is-config="true" duration-ms="11221" started-at="2019-12-20T05:58:42 EET" finished-at="2019-12-20T05:58:53 EET">
+        <test-method is-config="true" signature="setupTestConfiguration()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@4c1d9d4b]" started-at="2020-02-12T15:00:40 EST" name="setupTestConfiguration" finished-at="2020-02-12T15:00:44 EST" duration-ms="3772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestConfiguration -->
-        <test-method status="PASS" signature="iWantToLogin1()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@47ef968d]" name="iWantToLogin1" duration-ms="14186" started-at="2019-12-20T05:59:17 EET" finished-at="2019-12-20T05:59:31 EET">
+        <test-method signature="iWantToLogin1()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@4c1d9d4b]" started-at="2020-02-12T15:00:44 EST" name="iWantToLogin1" finished-at="2020-02-12T15:00:56 EST" duration-ms="12131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iWantToLogin1 -->
-        <test-method status="FAIL" signature="iWantToLogin2()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@47ef968d]" name="iWantToLogin2" duration-ms="9675" started-at="2019-12-20T05:59:31 EET" finished-at="2019-12-20T05:59:41 EET">
+        <test-method signature="iWantToLogin2()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@4c1d9d4b]" started-at="2020-02-12T15:00:56 EST" name="iWantToLogin2" finished-at="2020-02-12T15:01:01 EST" duration-ms="5686" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -82,11 +26,11 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
 at org.testng.Assert.assertTrue(Assert.java:53)
-at executeLoginTest.LinkedinabstractlonginTest.iWantToLogin2(LinkedinabstractlonginTest.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
+at executeLoginTest.LinkedinabstractlonginTest.iWantToLogin2(LinkedinabstractlonginTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
@@ -95,7 +39,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
@@ -117,75 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iWantToLogin2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@47ef968d]" name="tearDown" is-config="true" duration-ms="1782" started-at="2019-12-20T06:00:30 EET" finished-at="2019-12-20T06:00:32 EET">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:executeLoginTest.LinkedinabstractlonginTest@4c1d9d4b]" started-at="2020-02-12T15:01:02 EST" name="tearDown" finished-at="2020-02-12T15:01:05 EST" duration-ms="2711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- executeLoginTest.LinkedinabstractlonginTest -->
-      <class name="executeLoginTest.LinkedinloginTest">
-        <test-method status="PASS" signature="getBrowserSetupConfiguration()[pri:0, instance:executeLoginTest.LinkedinloginTest@5bc79255]" name="getBrowserSetupConfiguration" is-config="true" duration-ms="5562" started-at="2019-12-20T05:58:53 EET" finished-at="2019-12-20T05:58:59 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserSetupConfiguration -->
-        <test-method status="PASS" signature="processLogin0()[pri:0, instance:executeLoginTest.LinkedinloginTest@5bc79255]" name="processLogin0" duration-ms="10191" started-at="2019-12-20T05:58:59 EET" finished-at="2019-12-20T05:59:09 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processLogin0 -->
-        <test-method status="PASS" signature="processLogin1()[pri:0, instance:executeLoginTest.LinkedinloginTest@5bc79255]" name="processLogin1" duration-ms="5867" started-at="2019-12-20T05:59:09 EET" finished-at="2019-12-20T05:59:15 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processLogin1 -->
-        <test-method status="FAIL" signature="processLogin2()[pri:0, instance:executeLoginTest.LinkedinloginTest@5bc79255]" name="processLogin2" duration-ms="726" started-at="2019-12-20T05:59:15 EET" finished-at="2019-12-20T05:59:16 EET">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[did not expect to find [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at executeLoginTest.LinkedinloginTest.processLogin2(LinkedinloginTest.java:85)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processLogin2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:executeLoginTest.LinkedinloginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="750" started-at="2019-12-20T06:00:33 EET" finished-at="2019-12-20T06:00:33 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- executeLoginTest.LinkedinloginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

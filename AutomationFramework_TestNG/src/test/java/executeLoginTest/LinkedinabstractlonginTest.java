@@ -50,8 +50,8 @@ public class LinkedinabstractlonginTest extends Globalconfiguration{
 	public void iWantToLogin2() {
 		//lunchBrowser();
 		loginmethod1.processLogin(driver, prop, loginLocators);
+		//log.info("LOG4J-LOGGER:Abstractio LOGIN TWO successfully initiated");
 		System.out.println("Abstractio LOGIN TWO successfully initiated");
-		Assert.assertTrue(false);
-		
+		Assert.assertTrue(false);		
 	}
 }
